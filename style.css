@@ -176,16 +176,18 @@ marginleft {
 }
 .about h2 {
   text-transform: uppercase;
-  transition: all 2.5s ease;
+  transition: all 5.5s ease;
   font-size: 40px;
   font-weight: 400;
-  margin-top: 20px;
-  margin-button: 5px;
+  margin-top: 10px;
+ 
 }
 
 .about p {
-  transition: all 2.5s ease;
+  transition: all 5.5s ease;
   font-size: 15px;
+  padding:10px;
+  
 }
 .about.hidden h2 {
   opacity: 0;
@@ -420,8 +422,8 @@ marginleft {
     border-bottom: none;
 }
 
-/* buy button*/
-.button {
+/* buy button1*/
+.buybutton1 {
   position: absolute;
   top: 4250px;
   right: 45px;
@@ -434,4 +436,42 @@ marginleft {
   outline: none;
 }
 
-.button:hover {opacity: 1}
+.buybutton1:hover {opacity: 1}
+
+/* buy button2*/
+.buybutton2 {
+  position: absolute;
+  top: 6130px;
+  right: 45px;
+  background-color: #0071e3;
+  color: white;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 18px; 
+  outline: none;
+}
+
+.buybutton2:hover {opacity: 1}
+
+/* Thick red border */
+hr { 
+    margin: 50px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.policy {
+  text-decoration:none;
+  font-size:12px;
+  letter-spacing:3.5px;
+  text-align:center;
+  font-weight:5px;
+  visited: black;
+  underline:black;
+}
+
+a:visited{
+text-decoration: none;
+color: black;
